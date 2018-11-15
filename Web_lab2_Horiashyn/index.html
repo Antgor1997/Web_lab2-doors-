@@ -1,649 +1,669 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title> mir-dverey.rumedia-stavropol.ru</title>
-        <link rel="stylesheet" href="css/styl.css">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Doors</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="wrapper">
             <div class="wrap">
-                <header>
-
-
-
-                    <div class="header_top">
-                        <div class="header__row" id="hide_on_scroll">
-                            <div class="content header__row_first">
+            <header>
+                    <div class="menu_hideable">
+                        <div class="header_row" id="hideable">
+                            <div class="content header_up_raw">
                                 <div class="logo">
-                                    <a href="#">
-                                        <img src="img/logo.png">
-                                    </a>
+                                    <a href="#"><img src="img/logo.png" alt="logo"></a>
                                 </div>
-                                <div class="header__contacts-col">
-                                    <p>
-                                        <span class="red_text">Адрес: </span> г. Ставрополь, пр. Кулакова, 6</p>
-                                    <p>
-                                        <span class="red_text">Телефоны:</span>
-                                    </p>
-                                    <p>
-                                        <span class="caps"> межкомнатные двери</span>
-                                        <a href="tel:+7 8652 56-61-27">+7 8652 56-61-27</a>,
-                                        <a href="tel:+7 8652 95-68-68"> +7 8652 95-68-68</a>
-                                    </p>
-                                    <p>
-                                        <span class="caps">металлические двери</span>
-                                        <a href="tel: +7 8652 56-60-49"> +7 8652 56-60-49</a>
-                                    </p>
+                                <div>
+                                    <p><span class="text_red">Адрес:</span> г. Ставрополь, пр. Кулакова, 6</p>
+                                    <p><span class="text_red">Телефоны:</span></p>
+                                    <p>межкомнатные двери <a href="tel:+7 8652 56-61-27">+7 8652 56-61-27</a>, <a href="tel:+7 8652 95-68-68">+7 8652 95-68-68</a></p>
+                                    <p>металлические двери <a href="tel:+7 8652 56-60-49">+7 8652 56-60-49</a></p>
                                 </div>
-                                <div class="header__contacts-col">
-                                    <p>
-                                        <span class="red_text">E-mail:</span>
-                                        <a href="mailto:stav_slkom@rambler.ru">stav_slkom@rambler.ru</a>
-                                    </p>
-                                    <p>
-                                        <span class="red_text">Сайт:</span>
-                                        <a href="http://mir-dverei.ru">mir-dverei.ru</a>
-                                    </p>
-                                    <p>
-                                        <span class="red_text">Открыто:</span> ежедневно, 9:00–18:00
-                                    </p>
+                                <div>
+                                    <p><span class="text_red">E-mail:</span><a href="mailto:stav_slkom@rambler.ru">stav_slkom@rambler.ru</a></p>
+                                    <p><span class="text_red">Сайт:</span><a href="http://mir-dverei.ru">mir-dverei.ru</a></p>
+                                    <p><span class="text_red">Открыто:</span> ежедневно, 9:00–18:00</p>
                                 </div>
                             </div>
                         </div>
 
-
-
-
-                        <nav class="header__row header__menu">
-                            <img src="img/logo.png" class="logo_small">
-                            <div class="content header__row_second">
+                        <nav class="header_row header_down_raw">
+                            <ul class="content menu">
                                 <li>
-                                    <a href="#top">Главная</a>
-                                    <a name="#top"></a>
+                                    <a href = "#up">ГЛАВНАЯ</a>
+                                    <a name="#up"></a>
                                 </li>
                                 <li>
-                                    <a href="#about">о нас</a>
+                                    <a href = "#about_company">О НАС</a>
                                 </li>
                                 <li>
-                                    <a href="#galery">галерея</a>
+                                    <a href = "#galery">ГАЛЕРЕЯ</a>
                                 </li>
                                 <li>
-                                    <a href="#room_doors">межкомнатные двери</a>
+                                    <a href = "#connectable_doors">МЕЖКОМНАТНЫЕ ДВЕРИ</a>
                                 </li>
                                 <li>
-                                    <a href="#metal-doors">металлические двери</a>
+                                    <a href = "#steal_doors">МЕТАЛЛИЧЕСКИЕ ДВЕРИ</a>
                                 </li>
                                 <li>
-                                    <a href="#furnitura">фурнитура</a>
+                                    <a href = "#furnitura">ФУРНИТУРА</a>
                                 </li>
                                 <li>
-                                    <a href="#supreme">преимущества</a>
+                                    <a href = "#supreme">ПРЕИМУЩЕСТВА</a>
                                 </li>
                                 <li>
-                                    <a href="#contacts">контакты</a>
+                                    <a href = "#contacts">КОНТАКТЫ</a>
                                 </li>
-                                <button id="call_back" class="header__button_cal">обратный звонок</button>
-                            </div>
-                            <div id="menu__button">
-                                <div class="line"></div>
-                                <div class="line"></div>
-                                <div class="line"></div>
-                            </div>
+                                <li>
+                                    <button id="call_form1" class="button_call_form">обратный звонок</button>
+                                </li>
+                            </ul>
                         </nav>
+
                     </div>
-                    <section class="header_bottom header__slider">
-                        <div class="slider__item">
-                            <div class="item__img">
+
+                    <nav class="mobile_menu" id="mobile_menu">
+                        <li>
+                            <a href = "#up">ГЛАВНАЯ</a>
+                            <a name="#up"></a>
+                        </li>
+                        <li>
+                            <a href = "#about_company">О НАС</a>
+                        </li>
+                        <li>
+                            <a href = "#galery">ГАЛЕРЕЯ</a>
+                        </li>
+                        <li>
+                            <a href = "#connectable_doors">МЕЖКОМНАТНЫЕ ДВЕРИ</a>
+                        </li>
+                        <li>
+                            <a href = "#steal_doors">МЕТАЛЛИЧЕСКИЕ ДВЕРИ</a>
+                        </li>
+                        <li>
+                            <a href = "#furnitura">ФУРНИТУРА</a>
+                        </li>
+                        <li>
+                            <a href = "#supreme">ПРЕИМУЩЕСТВА</a>
+                        </li>
+                        <li>
+                            <a href = "#contacts">КОНТАКТЫ</a>
+                        </li>
+                        <li>
+                            <button id="call_form2" class="button_call_form">обратный звонок</button>
+                        </li>
+                    </nav>
+
+                    <div class="logo2"><span></span></div>
+                    <!-- кнопка для мобильного вида -->
+                    <div class="nav-toggle" id="button_nav"><span></span></div>
+
+                    <section class="header_slider">
+                        <div class="slider">
+                            <div class="top_slider_img">
                                 <img src="img/22-layers.png">
                                 <img src="img/22-layers.png">
                             </div>
-                            <div class="item__text">
-                                <p>
-                                    <strong> новое поступление</strong>
-                                </p>
-                                    <p>стильных входных дверей</p>
-                                <p>
-                                    <span class="red_text">уже в продаже!</span>
-                                </p>
-                                <a href="#metal-doors" class="button button_light">Узнать подробнее</a>
+                            <div class="top_slider_text">
+                                <p><strong>новое поступление</strong></p>
+                                <p>стильных входных дверей</p>
+                                <p><span class="text_red">уже в продаже!</span></p>
+                                <a href="#steel_doors" class="button">Узнать подробнее</a><!--class=metal-doors-->
                             </div>
                         </div>
                     </section>
-                </header>
+            </header>
 
 
 
 
-                <main>
-                    <a name="about"></a>
-                    <article class="about">
-                        <div class="content">
-                            <div class="left">
-                                <div class="text">
-                                    <div class="header">О КОМПАНИИ</div>
-                                    <div class="description">Динамично развиваясь с 1998 года, компания “Мир дверей” занимает прочное место на дверном рынке, став крупнейшим в Ставропольском крае оператором входных и межкомнатных дверей.</div>
-                                </div>
-                                <div class="active">
-                                    <div class="title_supreme">
-                                        <span class="title">Наши преимущества:</span>
-                                        <nav>
-                                            <li>складской комплекс 2000 кв.м.</li>
-                                            <li>собственный автопарк для тарнспортировки грузов</li>
-                                            <li>вся продукция соответствует требованиям Госстандарта России в строительстве</li>
-                                            <li>профессиональные менеджеры в области продаж и логистики</li>
-                                            <li>выгодные условия сотрудничества</li>
-                                            <li>продукция от ведущих производителей</li>
-                                            <li>установка + гарантия</li>
-                                            <li>доставка по г.Ставрополю и г.Михайловску</li>
-                                        </nav>
-                                    </div>
-                                </div>
+
+            <main>
+                <a name="about_company"></a>
+                <article class="about_company">
+                    <div class="content">
+                        <div class="left_column">
+                            <div class="text_area">
+                                <div class="name_text_area">О КОМПАНИИ</div>
+                                <div class="description_area">Динамично развиваясь с 1998 года, компания “Мир дверей” занимает прочное место на дверном рынке, став крупнейшим в Ставропольском крае оператором входных и межкомнатных дверей.</div>
                             </div>
-                            <div class="right">
-                                <div class="text">
-                                    <div class="header">магазин</div>
-                                    <div class="description">
-                                        <p>Мы предлагаем широкий ассортимент продукции при оптимальном сочетании цены и качества.</p>
-                                        <br>
-                                        <p>Приобретая продукцию у нас, Вы получаете гарантированное качество продукции и услуг по установке дверей.</p>
-                                    </div>
-                                </div>
-                                <div class="active">
-                                    <div class="slider__item">
-                                        <a href="img/Layer_19.png"><img src="img/Layer_19.png"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
 
-                    <a name="galery"></a>
-                    <article class="galery">
-                        <div class="content">
-                            <div class="text">
-                                <div class="header">галерея</div>
-                                <div class="description">Динамично развиваясь с 1998 года, компания “Мир дверей” занимает прочное место на дверном рынке,
-                                    став крупнейшим в Ставропольском крае оператором входных и межкомнатных дверей.</div>
-                            </div>
-                            <div class="active">
-                                <div class="slider">
-                                    <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
-                                    <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
-                                    <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
-                                    <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
-                                    <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
-                                    <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
-                                    <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
-                                    <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
-                                    <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
-                                    <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
-                                    <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
-                                    <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
-                                    <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
-                                    <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
-                                    <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-
-
-                    <a name="room_doors"></a>
-                    <article class="room_doors">
-                        <div class="content">
-                            <div class="text">
-                                <div class="header">межкомнатные двери</div>
-                                <div class="description">В ассортименте нашего магазина более 200 моделей межкомнатных дверей самых различных стилей и
-                                    расцветок, среди которых вы точно сможете подобрать именно ту модель, которая идеально подойдет
-                                    под ваш интерьер.</div>
-                            </div>
-                            <div class="active">
-                                <nav class="tab">
-                                    <li>
-                                        <label for="room_tab-1" class="text"> массив</label>
-                                    </li>
-                                    <li>
-                                        <label for="room_tab-2" class="text">эко-шпон PV</label>
-                                    </li>
-                                    <li>
-                                        <label for="room_tab-3" class="text bl">эко-шпон</label>
-                                    </li>
-                                </nav>
-
-                                <input id="room_tab-1" type="radio" name="tab">
-                                <div class="tab_mass tab__slider">
-                                    <a class="slider__item" href="img/mas-01.png"><img src="img/mas-01.png"></a>
-                                    <a class="slider__item" href="img/mas1-02.png"><img src="img/mas1-02.png"></a>
-                                </div>
-                                <input id="room_tab-2" type="radio" name="tab">
-                                <div class="tab_shpon tab__slider">
-                                    <a class="slider__item" href="img/pv1-1.png"><img src="img/pv1-1.png"></a>
-                                    <a class="slider__item" href="img/pv2-1.png"><img src="img/pv2-1.png"></a>
-                                </div>
-                                <input id="room_tab-3" type="radio" name="tab">
-                                <div class="tab_eco-shpon tab__slider">
-                                    <a class="slider__item" href="img/shp1-1.png"><img src="img/shp1-1.png"></a>
-                                    <a class="slider__item" href="img/shp2-1.png"><img src="img/shp2-1.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-
-                    <article class="popular">
-                        <div class="content">
-                            <div class="text">
-                                <div class="header">популярные модели</div>
-                                <div class="description">Подобрать нужную дверь бывает не легко, поэтому мы предлагаем вам рассмотреть популярные модели и их варианты в интерьере.</div>
-                            </div>
-                            <div class="active">
-                                <input id="room_tab-11" type="radio" name="tab1">
-                                <div class="slide_block tab_mass">
-                                    <div class="slider__item">
-                                        <a href="img/mas0-1.png"><img src="img/mas0-1.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas0-2.png"><img src="img/mas0-2.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas0-3.png"><img src="img/mas0-3.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas0-4.png"><img src="img/mas0-4.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas0-5.png"><img src="img/mas0-5.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas0-6.png"><img src="img/mas0-6.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas1-1.png"><img src="img/mas1-1.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas1-2.png"><img src="img/mas1-2.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas1-3.png"><img src="img/mas1-3.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas1-4.png"><img src="img/mas1-4.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas1-5.png"><img src="img/mas1-5.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mas1-6.png"><img src="img/mas1-6.png"></a>
-                                    </div>
-                                </div>
-
-                                <input id="room_tab-22" type="radio" name="tab1">
-                                <div class="slide_block tab_shpon">
-                                    <div class="slider__item">
-                                        <a href="img/pv1-01.png"><img src="img/pv1-01.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv1-02.png"><img src="img/pv1-02.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv1-03.png"><img src="img/pv1-03.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv1-04.png"><img src="img/pv1-04.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv1-05.png"><img src="img/pv1-05.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv1-06.png"><img src="img/pv1-06.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv2-01.png"><img src="img/pv2-01.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv2-02.png"><img src="img/pv2-02.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv2-03.png"><img src="img/pv2-03.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv2-04.png"><img src="img/pv2-04.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv2-05.png"><img src="img/pv2-05.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/pv2-06.png"><img src="img/pv2-06.png"></a>
-                                    </div>
-                                </div>
-                                <input id="room_tab-33" type="radio" name="tab1">
-                                <div class="slide_block tab_eco-shpon">
-                                    <div class="slider__item">
-                                        <a href="img/shp1-01.png"><img src="img/shp1-01.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp1-02.png"><img src="img/shp1-02.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp1-03.png"><img src="img/shp1-03.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp1-04.png"><img src="img/shp1-04.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp1-05.png"><img src="img/shp1-05.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp1-06.png"><img src="img/shp1-06.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp2-01.png"><img src="img/shp2-01.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp2-02.png"><img src="img/shp2-02.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp2-03.png"><img src="img/shp2-03.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp2-04.png"><img src="img/shp2-04.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp2-05.png"><img src="img/shp2-05.png"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/shp2-06.png"><img src="img/shp2-06.png"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-
-                    <a name="metal-doors"></a>
-                    <article class="metal-doors">
-                        <div class="content">
-                            <div class="text">
-                                <div class="header">металлические двери</div>
-                                <div class="description">В нашем ассортименте представлено более 100 моделей металличеких дверей в наличии и под заказ</div>
-                            </div>
-                            <div class="active">
-                                <nav class="tab">
-                                    <li>
-                                        <label for="metal_tab-1" class="button button_strong">новые модели</label>
-                                    </li>
-                                    <li>
-                                        <label for="metal_tab-2" class="button button_strong">популярные модели</label>
-                                    </li>
-                                </nav>
-                                <input id="metal_tab-1" type="radio" name="tab" checked>
-                                <div class="active__item new-model">
-                                    <div class="slider__item">
-                                        <a href="img/m1-2.png"><img src="img/m1-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/m2-2.png"><img src="img/m2-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/m3-2.png"><img src="img/m3-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/m4-2.png"><img src="img/m4-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/m4-2.png"><img src="img/m4-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/m6-2.png"><img src="img/m6-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mn1-2.png"><img src="img/mn1-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mn2-2.png"><img src="img/mn2-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mn3-2.png"><img src="img/mn3-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mn4-2.png"><img src="img/mn4-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mn5-2.png"><img src="img/mn5-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mn6-2.png"><img src="img/mn6-2.png" class="front"></a>
-                                    </div>
-                                </div>
-
-                                <input id="metal_tab-2" type="radio" name="tab">
-                                <div class="active__item new-model">
-                                    <div class="slider__item">
-                                        <a href="img/mh1-2.png"><img src="img/mh1-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mh2-2.png"><img src="img/mh2-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mh3-2.png"><img src="img/mh3-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mh4-2.png"><img src="img/mh4-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mh5-2.png"><img src="img/mh5-2.png" class="front"></a>
-                                    </div>
-                                    <div class="slider__item">
-                                        <a href="img/mh6-2.png"><img src="img/mh6-2.png" class="front"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="sert">
-                        <div class="content">
-                            <div class="text">
-                                <div class="description">
-                                    Ежедневно открывая входную дверь, вы должны испытывать удовольствие. А закрывая ее, быть уверенными в том, что ваш дом, семья
-                                    и имущество находятся под надежной защитой. Поэтому при выборе металлической двери не может
-                                    быть компромиссов.
-                                    <div class="title">Найдите свою входную дверь – и она будет радовать вас не один десяток лет!</div>
-                                </div>
-                            </div>
-                            <div class="active">
-                                <div class="slider__item">
-                                    <a href="img/sert1.png"><img src="img/sert1.png"></a>
-                                </div>
-                                <div class="slider__item">
-                                    <a href="img/sert2.png"><img src="img/sert2.png"></a>
-                                </div>
-                                <div class="slider__item">
-                                    <a href="img/sert3.png"><img src="img/sert3.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-
-                    <a name="furnitura"></a>
-                    <article class="furnitura">
-                        <div class="content">
-                            <div class="text">
-                                <div class="header">фурнитура</div>
-                                <div class="description">В нашем отделе дверной фурнитуры представлено более 200 моделей дверных ручек и соответствующей фурнитуры под них в наличии</div>
-                            </div>
-                            <div class="active">
-                                <div class="slider">
-                                    <div class="slider__item">
-                                        <div class="slider__item__row">
-                                            <a href="imgimg_4992.jpg"><img src="img/img_4992.jpg"></a>
-                                            <a href="imgimg_4994.jpg"><img src="img/img_4994.jpg"></a>
-                                            <a href="img/img_4998.jpg"><img src="img/img_4998.jpg"></a>
-                                        </div>
-                                        <div class="slider__item__row">
-                                            <a href="img/img_5004.jpg"><img src="img/img_5004.jpg"></a>
-                                            <a href="img/img_5008.jpg"><img src="img/img_5008.jpg"></a>
-                                            <a href="img/img_5021.jpg"><img src="img/img_5021.jpg"></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider__item">
-                                        <div class="slider__item__row">
-                                            <a href="img/img_4992.jpg"><img src="img/img_4992.jpg"></a>
-                                            <a href="img/img_4994.jpg"><img src="img/img_4994.jpg"></a>
-                                            <a href="img/img_4998.jpg"><img src="img/img_4998.jpg"></a>
-                                        </div>
-                                        <div class="slider__item__row">
-                                            <a href="img/img_5004.jpg"><img src="img/img_5004.jpg"></a>
-                                            <a href="img.img_5008.jpg"><img src="img/img_5008.jpg"></a>
-                                            <a href="img/img_5021.jpg"><img src="img/img_5021.jpg"></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider__item">
-                                        <div class="slider__item__row">
-                                            <a href="img/img_4998.jpg"><img src="img/img_4992.jpg"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="active__title">Выбрать фурнитуру? Легко!</div>
-                            <div class="active__text">Наши консультанты помогут вам подобрать из всего обилия дверной фурнитуры именно тот комплект, который
-                                будет соответствовать вашим нуждам</div>
-                        </div>
-                        <div class="furnitura__brand">
-                            <img src="img/Layer_73.png">
-                            <img src="img/Layer_74.png">
-                            <img src="img/Layer_75.png">
-                            <img src="img/Layer_76.png">
-                            <img src="img/Layer_77.png">
-                            <img src="img/Layer_79.png">
-                            <img src="img/Layer_80.png">
-                            <img src="img/Layer_97.png">
-                            <img src="img/Layer_98.png">
-                            <img src="img/Layer_99.png">
-                            <img src="img/Layer_100.png">
-                            <img src="img/Layer_107.png">
-                        </div>
-                    </article>
-
-                    <a name="supreme"></a>
-                    <article class="supreme">
-                        <div class="content">
-                            <div class="text">
-                                <div class="header">НАШИ ПРЕИМУЩЕСТВА</div>
-                            </div>
-                            <div class="active">
-                                <div class="slider__item long_time">
-                                    <div class="slider__img"></div>
-                                    <div class="slider__text">НА РЫНКЕ С 1998 ГОДА</div>
-                                </div>
-                                <div class="slider__item car">
-                                    <div class="slider__img"></div>
-                                    <div class="slider__text">ПРЯМЫЕ ПОСТАВКИ С ЗАВОДОВ</div>
-                                </div>
-                                <div class="slider__item best_items">
-                                    <div class="slider__img"></div>
-                                    <div class="slider__text">ТОВАРЫ ОТ ЛУЧШИХ ПРОИЗВОДИТЕЛЕЙ</div>
-                                </div>
-                                <div class="slider__item best_price">
-                                    <div class="slider__img"></div>
-                                    <div class="slider__text">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</div>
-                                </div>
-                            </div>
-                            <div class="active__text1">НА ДАННЫЙ МОМЕНТ НАШЕЙ КОМПАНИИ 20 ЛЕТ. ЗА ЭТО ВРЕМЯ НАША КОМПАНИЯ СМОГЛА ПРОЧНО ЗАКРЕПИТЬСЯ НА РЫНКЕ И ЗАНЯТЬ ЛИДИРУЮЩИЕ ПОЗИЦИИ ПО ПРОДАЖАМ ДВЕРЕЙ</div>
-                        </div>
-                    </article>
-
-                    <article class="measurements">
-                        <div class="content">
-                            <div class="text">
-                                <div class="header">ЗАМЕРЫ В ГОРОДЕ</div>
-                                <div class="description">
-                                    Магазин «МИР ДВЕРЕЙ» рекомендует доверять проведение замеров только специалистам. Технолог определит точные размеры, необходимость
-                                    доработки проема, возможность использования различных крепежей в стены и т.д. На основании
-                                    этих данных он определит возможность установки предварительно выбранной двери, либо определит
-                                    другие подходящие к установке модели.
-                                </div>
-                            </div>
-                            <div class="active">
-                                <div class="active__title">
-                                <span class="caps"> МЫ ПРЕДЛАГАЕМ
-                                    <strong>БЕСПЛАТНЫЕ ЗАМЕРЫ</strong>
-                                </span> от специалистов по г.Ставрополю и г.Михайловску
-                                    <div class="red_text"> ЗАПИШИСЬ УЖЕ СЕГОДНЯ !</div>
-                                </div>
-                                <div class="active_phones">
-                                    <p>
-                                        <strong><span>Межкомнатные двери</span> +7 8652 95-68-68 </strong>
-                                    </p>
-                                    <p>
-                                        <strong><span> Металлические двери</span> +7 8652 56-60-49</strong>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <a name="contacts"></a>
-                    <article class="contacts">
-                        <div class="content">
-                            <div class="left">
-                                <div class="text">
-                                    <div class="header">контакты</div>
-                                </div>
-                                <div class="active">
-                                    <nav class="active_text">
-                                        <li>
-                                            г. Ставрополь, просп. Кулакова, 6
-                                        </li>
-                                        <li>
-                                            <a href="tel:+78652956868">+7 8652 95-68-68</a>,
-                                            <a href="tel:+78652566049">+7 8652 56-60-49</a>
-                                        </li>
-                                        <li>
-                                            Открыто: ежедневно, 9:00–18:00
-                                        </li>
+                            <div class="our_properties">
+                                <div class="title_supreme">
+                                    <span class="title">Наши преимущества:</span>
+                                    <nav>
+                                        <li>складской комплекс 2000 кв.м.</li>
+                                        <li>собственный автопарк для тарнспортировки грузов</li>
+                                        <li>вся продукция соответствует требованиям Госстандарта России в строительстве</li>
+                                        <li>профессиональные менеджеры в области продаж и логистики</li>
+                                        <li>выгодные условия сотрудничества</li>
+                                        <li>продукция от ведущих производителей</li>
+                                        <li>установка + гарантия</li>
+                                        <li>доставка по г.Ставрополю и г.Михайловску</li>
                                     </nav>
                                 </div>
+
                             </div>
-                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad53f309dbf871d1a5d95c7260e37ff4e1aa770f70a5d9a31487d42cd70c76a83&amp;width=794&amp;height=451&amp;lang=ru_RU&amp;scroll=false"></script>
                         </div>
-                    </article>
-                </main>
+
+                        <div class="right_column">
+
+                            <div class="text_area">
+                                <div class="name_text_area">магазин</div>
+                                <div class="description_area">
+                                    <p>Мы предлагаем широкий ассортимент продукции при оптимальном сочетании цены и качества.</p>
+                                    <br>
+                                    <p>Приобретая продукцию у нас, Вы получаете гарантированное качество продукции и услуг по установке дверей.</p>
+                                </div>
+                            </div>
+
+                            <div class="active">
+                                <div class="slider__item">
+                                    <a href="img/Layer_19.png"><img src="img/Layer_19.png"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+
+
+
+                <a name="galery"></a>
+                <article class="galery">
+                    <div class="content">
+                        <div class="text_area">
+                            <div class="name_text_area">галерея</div>
+                            <div class="description_area">Динамично развиваясь с 1998 года, компания “Мир дверей” занимает прочное место на дверном рынке,
+                                став крупнейшим в Ставропольском крае оператором входных и межкомнатных дверей.</div>
+                        </div>
+                        <div class="slider_location">
+                            <div class="slider">
+                                <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
+                                <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
+                                <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
+                                <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
+                                <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
+                                <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
+                                <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
+                                <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
+                                <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
+                                <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
+                                <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
+                                <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
+                                <a href="img/galery/galery-01.jpg" class="slider__item"><img src="img/galery/galery-01.jpg"></a>
+                                <a href="img/galery/galery-02.jpg" class="slider__item"><img src="img/galery/galery-02.jpg"></a>
+                                <a href="img/galery/galery-03.jpg" class="slider__item"><img src="img/galery/galery-03.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <a name="connectable_doors"></a>
+                <article class="connectable_doors">
+                    <div class="content">
+                        <div class="text_area">
+                            <div class="name_text_area">межкомнатные двери</div>
+                            <div class="description_area">В ассортименте нашего магазина более 200 моделей межкомнатных дверей самых различных стилей и
+                                расцветок, среди которых вы точно сможете подобрать именно ту модель, которая идеально подойдет
+                                под ваш интерьер.</div>
+                        </div>
+                        <div class="active">
+                            <nav class="tab">
+                                <li>
+                                    <label for="room_tab-1" class="text_area"> массив</label>
+                                </li>
+                                <li>
+                                    <label for="room_tab-2" class="text_area">эко-шпон PV</label>
+                                </li>
+                                <li>
+                                    <label for="room_tab-3" class="text_area bl">эко-шпон</label>
+                                </li>
+                            </nav>
+
+                            <input id="room_tab-1" type="radio" name="tab">
+                            <div class="tab_mass tab__slider">
+                                <a class="slider__item" href="img/mas-01.png"><img src="img/mas-01.png"></a>
+                                <a class="slider__item" href="img/mas1-02.png"><img src="img/mas1-02.png"></a>
+                            </div>
+                            <input id="room_tab-2" type="radio" name="tab">
+                            <div class="tab_shpon tab__slider">
+                                <a class="slider__item" href="img/pv1-1.png"><img src="img/pv1-1.png"></a>
+                                <a class="slider__item" href="img/pv2-1.png"><img src="img/pv2-1.png"></a>
+                            </div>
+                            <input id="room_tab-3" type="radio" name="tab">
+                            <div class="tab_eco-shpon tab__slider">
+                                <a class="slider__item" href="img/shp1-1.png"><img src="img/shp1-1.png"></a>
+                                <a class="slider__item" href="img/shp2-1.png"><img src="img/shp2-1.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="popular">
+                    <div class="content">
+                        <div class="text_area">
+                            <div class="name_text_area">популярные модели</div>
+                            <div class="description_area">Подобрать нужную дверь бывает не легко, поэтому мы предлагаем вам рассмотреть популярные модели и их варианты в интерьере.</div>
+                        </div>
+                        <div class="active">
+                            <input id="room_tab-11" type="radio" name="tab1">
+                            <div class="slide_block tab_mass">
+                                <div class="slider__item">
+                                    <a href="img/mas0-1.png"><img src="img/mas0-1.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas0-2.png"><img src="img/mas0-2.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas0-3.png"><img src="img/mas0-3.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas0-4.png"><img src="img/mas0-4.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas0-5.png"><img src="img/mas0-5.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas0-6.png"><img src="img/mas0-6.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas1-1.png"><img src="img/mas1-1.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas1-2.png"><img src="img/mas1-2.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas1-3.png"><img src="img/mas1-3.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas1-4.png"><img src="img/mas1-4.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas1-5.png"><img src="img/mas1-5.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mas1-6.png"><img src="img/mas1-6.png"></a>
+                                </div>
+                            </div>
+
+                            <input id="room_tab-22" type="radio" name="tab1">
+                            <div class="slide_block tab_shpon">
+                                <div class="slider__item">
+                                    <a href="img/pv1-01.png"><img src="img/pv1-01.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv1-02.png"><img src="img/pv1-02.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv1-03.png"><img src="img/pv1-03.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv1-04.png"><img src="img/pv1-04.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv1-05.png"><img src="img/pv1-05.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv1-06.png"><img src="img/pv1-06.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv2-01.png"><img src="img/pv2-01.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv2-02.png"><img src="img/pv2-02.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv2-03.png"><img src="img/pv2-03.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv2-04.png"><img src="img/pv2-04.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv2-05.png"><img src="img/pv2-05.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/pv2-06.png"><img src="img/pv2-06.png"></a>
+                                </div>
+                            </div>
+                            <input id="room_tab-33" type="radio" name="tab1">
+                            <div class="slide_block tab_eco-shpon">
+                                <div class="slider__item">
+                                    <a href="img/shp1-01.png"><img src="img/shp1-01.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp1-02.png"><img src="img/shp1-02.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp1-03.png"><img src="img/shp1-03.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp1-04.png"><img src="img/shp1-04.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp1-05.png"><img src="img/shp1-05.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp1-06.png"><img src="img/shp1-06.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp2-01.png"><img src="img/shp2-01.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp2-02.png"><img src="img/shp2-02.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp2-03.png"><img src="img/shp2-03.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp2-04.png"><img src="img/shp2-04.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp2-05.png"><img src="img/shp2-05.png"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/shp2-06.png"><img src="img/shp2-06.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+
+
+                <a name="steal_doors"></a>
+                <article class="metal-doors">
+                    <div class="content">
+                        <div class="text_area">
+                            <div class="name_text_area">металлические двери</div>
+                            <div class="description_area">В нашем ассортименте представлено более 100 моделей металличеких дверей в наличии и под заказ</div>
+                        </div>
+                        <div class="active">
+                            <nav class="tab">
+                                <li>
+                                    <label for="metal_tab-1" class="button button_strong">новые модели</label>
+                                </li>
+                                <li>
+                                    <label for="metal_tab-2" class="button button_strong">популярные модели</label>
+                                </li>
+                            </nav>
+                            <input id="metal_tab-1" type="radio" name="tab" checked>
+                            <div class="active__item new-model">
+                                <div class="slider__item">
+                                    <a href="img/m1-2.png"><img src="img/m1-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/m2-2.png"><img src="img/m2-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/m3-2.png"><img src="img/m3-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/m4-2.png"><img src="img/m4-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/m4-2.png"><img src="img/m4-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/m6-2.png"><img src="img/m6-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mn1-2.png"><img src="img/mn1-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mn2-2.png"><img src="img/mn2-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mn3-2.png"><img src="img/mn3-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mn4-2.png"><img src="img/mn4-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mn5-2.png"><img src="img/mn5-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mn6-2.png"><img src="img/mn6-2.png" class="front"></a>
+                                </div>
+                            </div>
+
+                            <input id="metal_tab-2" type="radio" name="tab">
+                            <div class="active__item new-model">
+                                <div class="slider__item">
+                                    <a href="img/mh1-2.png"><img src="img/mh1-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mh2-2.png"><img src="img/mh2-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mh3-2.png"><img src="img/mh3-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mh4-2.png"><img src="img/mh4-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mh5-2.png"><img src="img/mh5-2.png" class="front"></a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="img/mh6-2.png"><img src="img/mh6-2.png" class="front"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="sert">
+                    <div class="content">
+                        <div class="text_area">
+                            <div class="description_area">
+                                Ежедневно открывая входную дверь, вы должны испытывать удовольствие. А закрывая ее, быть уверенными в том, что ваш дом, семья
+                                и имущество находятся под надежной защитой. Поэтому при выборе металлической двери не может
+                                быть компромиссов.
+                                <div class="title">Найдите свою входную дверь – и она будет радовать вас не один десяток лет!</div>
+                            </div>
+                        </div>
+                        <div class="active">
+                            <div class="slider__item">
+                                <a href="img/sert1.png"><img src="img/sert1.png"></a>
+                            </div>
+                            <div class="slider__item">
+                                <a href="img/sert2.png"><img src="img/sert2.png"></a>
+                            </div>
+                            <div class="slider__item">
+                                <a href="img/sert3.png"><img src="img/sert3.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <a name="furnitura"></a>
+                <article class="furnitura">
+                    <div class="content">
+                        <div class="text_area">
+                            <div class="name_text_area">фурнитура</div>
+                            <div class="description_area">В нашем отделе дверной фурнитуры представлено более 200 моделей дверных ручек и соответствующей фурнитуры под них в наличии</div>
+                        </div>
+                        <div class="active">
+                            <div class="slider">
+                                <div class="slider__item">
+                                    <div class="slider__item__row">
+                                        <a href="imgimg_4992.jpg"><img src="img/img_4992.jpg"></a>
+                                        <a href="imgimg_4994.jpg"><img src="img/img_4994.jpg"></a>
+                                        <a href="img/img_4998.jpg"><img src="img/img_4998.jpg"></a>
+                                    </div>
+                                    <div class="slider__item__row">
+                                        <a href="img/img_5004.jpg"><img src="img/img_5004.jpg"></a>
+                                        <a href="img/img_5008.jpg"><img src="img/img_5008.jpg"></a>
+                                        <a href="img/img_5021.jpg"><img src="img/img_5021.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider__item__row">
+                                        <a href="img/img_4992.jpg"><img src="img/img_4992.jpg"></a>
+                                        <a href="img/img_4994.jpg"><img src="img/img_4994.jpg"></a>
+                                        <a href="img/img_4998.jpg"><img src="img/img_4998.jpg"></a>
+                                    </div>
+                                    <div class="slider__item__row">
+                                        <a href="img/img_5004.jpg"><img src="img/img_5004.jpg"></a>
+                                        <a href="img.img_5008.jpg"><img src="img/img_5008.jpg"></a>
+                                        <a href="img/img_5021.jpg"><img src="img/img_5021.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider__item__row">
+                                        <a href="img/img_4998.jpg"><img src="img/img_4992.jpg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="active__title">Выбрать фурнитуру? Легко!</div>
+                        <div class="active__text">Наши консультанты помогут вам подобрать из всего обилия дверной фурнитуры именно тот комплект, который
+                            будет соответствовать вашим нуждам</div>
+                    </div>
+                    <div class="furnitura__brand">
+                        <img src="img/Layer_73.png">
+                        <img src="img/Layer_74.png">
+                        <img src="img/Layer_75.png">
+                        <img src="img/Layer_76.png">
+                        <img src="img/Layer_77.png">
+                        <img src="img/Layer_79.png">
+                        <img src="img/Layer_80.png">
+                        <img src="img/Layer_97.png">
+                        <img src="img/Layer_98.png">
+                        <img src="img/Layer_99.png">
+                        <img src="img/Layer_100.png">
+                        <img src="img/Layer_107.png">
+                    </div>
+                </article>
+
+                <a name="supreme"></a>
+                <article class="supreme">
+                    <div class="content">
+                        <div class="text_area">
+                            <div class="name_text_area">НАШИ ПРЕИМУЩЕСТВА</div>
+                        </div>
+                        <div class="active">
+                            <div class="slider__item long_time">
+                                <div class="slider__img"></div>
+                                <div class="slider__text">НА РЫНКЕ С 1998 ГОДА</div>
+                            </div>
+                            <div class="slider__item car">
+                                <div class="slider__img"></div>
+                                <div class="slider__text">ПРЯМЫЕ ПОСТАВКИ С ЗАВОДОВ</div>
+                            </div>
+                            <div class="slider__item best_items">
+                                <div class="slider__img"></div>
+                                <div class="slider__text">ТОВАРЫ ОТ ЛУЧШИХ ПРОИЗВОДИТЕЛЕЙ</div>
+                            </div>
+                            <div class="slider__item best_price">
+                                <div class="slider__img"></div>
+                                <div class="slider__text">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</div>
+                            </div>
+                        </div>
+                        <div class="active__text1">НА ДАННЫЙ МОМЕНТ НАШЕЙ КОМПАНИИ 20 ЛЕТ. ЗА ЭТО ВРЕМЯ НАША КОМПАНИЯ СМОГЛА ПРОЧНО ЗАКРЕПИТЬСЯ НА РЫНКЕ И ЗАНЯТЬ ЛИДИРУЮЩИЕ ПОЗИЦИИ ПО ПРОДАЖАМ ДВЕРЕЙ</div>
+                    </div>
+                </article>
+
+                <article class="measurements">
+                    <div class="content">
+                        <div class="text_area">
+                            <div class="name_text_area">ЗАМЕРЫ В ГОРОДЕ</div>
+                            <div class="description_area">
+                                Магазин «МИР ДВЕРЕЙ» рекомендует доверять проведение замеров только специалистам. Технолог определит точные размеры, необходимость
+                                доработки проема, возможность использования различных крепежей в стены и т.д. На основании
+                                этих данных он определит возможность установки предварительно выбранной двери, либо определит
+                                другие подходящие к установке модели.
+                            </div>
+                        </div>
+                        <div class="active">
+                            <div class="active__title">
+                                МЫ ПРЕДЛАГАЕМ <strong>БЕСПЛАТНЫЕ ЗАМЕРЫ</strong> от специалистов по г.Ставрополю и г.Михайловску
+                                <div class="text_red"> ЗАПИШИСЬ УЖЕ СЕГОДНЯ !</div>
+                            </div>
+                            <div class="active_phones">
+                                <p>
+                                    <strong><span>Межкомнатные двери</span> +7 8652 95-68-68 </strong>
+                                </p>
+                                <p>
+                                    <strong><span> Металлические двери</span> +7 8652 56-60-49</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <a name="contacts"></a>
+                <article class="contacts">
+                    <div class="content">
+                        <div class="left">
+                            <div class="text_area">
+                                <div class="name_text_area">контакты</div>
+                            </div>
+                            <div class="active">
+                                <nav class="active_text">
+                                    <li>
+                                        г. Ставрополь, просп. Кулакова, 6
+                                    </li>
+                                    <li>
+                                        <a href="tel:+78652956868">+7 8652 95-68-68</a>,
+                                        <a href="tel:+78652566049">+7 8652 56-60-49</a>
+                                    </li>
+                                    <li>
+                                        Открыто: ежедневно, 9:00–18:00
+                                    </li>
+                                </nav>
+                            </div>
+                        </div>
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad53f309dbf871d1a5d95c7260e37ff4e1aa770f70a5d9a31487d42cd70c76a83&amp;width=794&amp;height=451&amp;lang=ru_RU&amp;scroll=false"></script>
+                    </div>
+                </article>
+            </main>
             </div>
 
 
+
+
+
+
+
+
+
+
+
             <footer>
-                <div class="footer__row first_row">
-                    <nav class="content footer__menu">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#about">о нас</a></li>
-                        <li><a href="#galery">галерея</a></li>
-                        <li><a href="#room_doors">межкомнатные двери</a></li>
-                        <li><a href="#metal-doors">металлические двери</a></li>
-                        <li><a href="#furnitura">фурнитура</a></li>
-                        <li><a href="#supreme">преимущества</a></li>
-                        <li><a href="#contacts">контакты</a></li>
+                <div class="footer_first_raw">
+                    <nav class="content footer_menu">
+                        <li><a href="">ГЛАВНАЯ</a></li>
+                        <li><a href="">О НАС</a></li>
+                        <li><a href="">ГАЛЕРЕЯ</a></li>
+                        <li><a href="">МЕЖКОМНАТНЫЕ ДВЕРИ</a></li>
+                        <li><a href="">МЕТАЛЛИЧЕСКИЕ ДВЕРИ</a></li>
+                        <li><a href="">ФУРНИТУРА</a></li>
+                        <li><a href="">ПРЕИМУЩЕСТВА</a></li>
+                        <li><a href="">КОНТАКТЫ</a></li>
                     </nav>
                 </div>
-
-                <div class="footer__row second_row">
+                <div class="footer_second_raw">
                     <div class="content">
-                        <div class="logo">
+                        <div class="logo1">
                             <a href="#"><img src="img/logo.png" alt="logo"></a>
                         </div>
-                        <div class="footer__links">
+                        <div class="footer__politics">
                             <div id="conf_button">Политика конфиденциальности</div>
                         </div>
-                        <div class="footer__logo-creator">
+                        <div class="footer__logo-rumedia">
                             <a href="#"><img src="img/Layer_57.png" alt=""></a>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
+
 
         <div id="over">
             <form id="form-call-back" action="" method="POST">
@@ -707,9 +727,9 @@
             </div>
         </div>
     </body>
-
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
     <script src="js/main.js"></script>
 </html>

@@ -1,9 +1,18 @@
-$(".item__img").slick({
+$(".top_slider_img").slick({
   autoplay: true,
   autoplaySpeed: 2500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  infinite: true
+  infinite: true,
+    responsive: [
+        {
+            breakpoint: 361,
+            settings: {
+                slidesToShow: 1,
+                autoplay: false
+            }
+        }
+    ]
 });
 
 $(".metal-doors .active__item").slick({
@@ -12,7 +21,41 @@ $(".metal-doors .active__item").slick({
     autoplaySpeed: 1000,
     slidesToShow: 6,
     slidesToScroll: 1,
-    arrows: false
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 1280,
+            settings: {
+                slidesToShow: 5
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 400,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });
 
 
@@ -24,7 +67,23 @@ $(".galery .slider").slick({
   dots: true,
   arrows: false,
   autoplay: true,
-  autoplaySpeed: 3000
+  autoplaySpeed: 3000,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false
+            }
+        }
+    ]
 });
 
 $(".galery").magnificPopup({
@@ -43,19 +102,22 @@ $(".galery").magnificPopup({
 
 
 
-
 $(".tab_mass.tab__slider").slick({
-  autoplay: false,
-  asNavFor: '.popular .tab_mass'
+    autoplay: false,
+    asNavFor: '.popular .tab_mass',
+    infinite:true
 });
 $(".tab_shpon.tab__slider").slick({
-  autoplay: false,
-  asNavFor: '.popular .tab_shpon'
+    autoplay: false,
+    asNavFor: '.popular .tab_shpon',
+    infinite:true
 });
 $(".tab_eco-shpon.tab__slider").slick({
-  autoplay: false,
-  asNavFor: '.popular .tab_eco-shpon'
+    autoplay: false,
+    asNavFor: '.popular .tab_eco-shpon',
+    infinite:true
 });
+
 
 
 
@@ -65,7 +127,40 @@ $(".popular .slide_block.tab_eco-shpon ").slick({
   slidesToShow: 6,
   slidesToScroll: 1,
   autoplaySpeed: 2500,
-  asNavFor: '.tab_eco-shpon.tab__slider'
+  asNavFor: '.tab_eco-shpon.tab__slider',
+    responsive: [
+        {
+            breakpoint: 1280,
+            settings: {
+                slidesToShow: 5
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },{
+            breakpoint: 430,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });
 
 
@@ -73,13 +168,79 @@ $(".popular .slide_block.tab_shpon ").slick({
   autoplay: false,
   slidesToShow: 6,
   slidesToScroll: 6,
-  asNavFor: '.tab_shpon.tab__slider'
+  asNavFor: '.tab_shpon.tab__slider',
+    responsive: [
+        {
+            breakpoint: 1280,
+            settings: {
+                slidesToShow: 5
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },{
+            breakpoint: 430,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });
 $(".popular .slide_block.tab_mass ").slick({
   autoplay: false,
   slidesToShow: 6,
   slidesToScroll: 6,
-  asNavFor: '.tab_mass.tab__slider'
+  asNavFor: '.tab_mass.tab__slider',
+    responsive: [
+        {
+            breakpoint: 1280,
+            settings: {
+                slidesToShow: 5
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },{
+            breakpoint: 430,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });
 $(".furnitura .slider").slick({
   arrows: false,
@@ -183,9 +344,9 @@ $(".popular").magnificPopup({
 $(document).ready(function() {
     $(window).scroll(function(){
         if ($(document).scrollTop() >127){
-            $("#hide_on_scroll").css("display", "none");
+            $("#hideable").css("display", "none");
         } else {
-            $("#hide_on_scroll").css("display", "flex");
+            $("#hideable").css("display", "flex");
         }
     });
 });
@@ -212,3 +373,23 @@ $("header .header__row_second li").click(function() {
   $(".line").toggleClass("cross");
   $("header .header__row_second").toggleClass("showFlex");
 });
+
+
+
+document.getElementById('button_nav').onclick=function(){
+    var show=document.getElementById('mobile_menu');
+    var display =['block', 'none'];
+    if(show.style.display!=display[0]){
+        show.style.display=display[0];
+    } else{
+        show.style.display=display[1];
+    }
+};
+
+
+
+
+
+
+
+
